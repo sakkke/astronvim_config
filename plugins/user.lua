@@ -20,4 +20,8 @@ return {
       }
     end,
   },
+  {
+    "andweeb/presence.nvim",
+    lazy = false,
+  },
 }
