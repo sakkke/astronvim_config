@@ -39,6 +39,12 @@ return {
       end,
       desc = "ToggleTerm julia",
     },
+    ["<leader>tp"] = {
+      function()
+        require("astronvim.utils").toggle_term_cmd "ipython"
+      end,
+      desc = "ToggleTerm ipython",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
