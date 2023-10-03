@@ -32,6 +32,13 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+    ["<leader>tj"] = {
+      function()
+        require("astronvim.utils").toggle_term_cmd "julia"
+      end,
+      desc = "ToggleTerm julia",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
