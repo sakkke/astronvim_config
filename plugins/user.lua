@@ -24,4 +24,20 @@ return {
     "andweeb/presence.nvim",
     lazy = false,
   },
+  {
+    "goolord/alpha-nvim",
+    opts = function(_, opts)
+      opts.section.header.val = {
+				[[           _   _   _       ]],
+				[[  ___ __ _| |_| |_| |_____ ]],
+				[[ (_-</ _` | / / / / / / -_)]],
+				[[ /__/\__,_|_\_\_\_\_\_\___|]],
+				[[                           ]],
+				[[              _       ]],
+				[[      _ ___ _(_)_ __  ]],
+				[[     | ' \ V / | '  \ ]],
+				[[     |_||_\_/|_|_|_|_|]],
+      }
+    end,
+  },
 }
