@@ -45,6 +45,7 @@ return {
       end,
       desc = "ToggleTerm ipython",
     },
+    ["<leader>tt"] = { "<cmd>ToggleTerm direction=float<cr>", desc = "ToggleTerm float" },
   },
   t = {
     -- setting a mapping to false will disable it
